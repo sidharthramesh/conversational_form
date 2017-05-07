@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form sample</title>
+    <style>
+    body
+    {
+      width:100%;
+      height:100%;
+      padding:0px;
+      margin:0px;
+    }
+    #asd
+    {
+      width:100%;
+      height:100%;
+      position:absolute;
+      top:0px;
+      left:0px;
+    }
+    </style>
+  </head>
+  <body>
+    <form id="myform" cf-form method="post" action='/post'>
+      <input type="radio" name="retard" cf-questions="Are you a retard?" cf-label="Yup"/>
+      <input type="text" name="name" cf-questions="What is your name?|Please tell me your name."/>
+      <input type="text" name="wtf" cf-questions="WTF?|No way!!?."/>
+      <input type="radio" name="subscribe" cf-label="I am an idiot" name = 'yes'/>
+    </form>
+  <div id="asd" cf-context></div>
+  <script type="text/javascript" src="https://conversational-form-093-0iznjsw.stackpathdns.com/conversational-form.min.js" crossorigin></script>
+</body>
+  </body>
+</html>
